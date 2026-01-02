@@ -9,9 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        CustomProgressView()
-            .controlSize(.large)
-            .tint(.red)
+        VStack(spacing: 24) {
+            ProgressView()
+            CustomProgressView()
+        }
+//        .controlSize(.large)
+//        .tint(.red)
     }
 }
 
