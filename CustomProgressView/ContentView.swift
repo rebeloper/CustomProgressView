@@ -8,13 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    @State private var isEnabled: Bool = true
-    
     var body: some View {
         CustomProgressView()
-            .controlSize(.regular)
-            .tint(.orange)
+            .controlSize(.large)
+            .tint(.red)
     }
 }
 
